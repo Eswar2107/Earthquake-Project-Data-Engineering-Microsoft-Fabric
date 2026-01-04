@@ -1,7 +1,7 @@
 # Earthquake-Project-Data-Engineering-Microsoft-Fabric
 
 ## Project Overview
-This project demonstrates how to build an end-to-end data engineering and analytics pipeline using Microsoft Fabric. It covers data ingestion, transformation, and visualization using Data Factory, Data Engineering, and Power BI.
+This project demonstrates how to build an end-to-end data engineering and analytics pipeline using Microsoft Fabric. It covers data ingestion, transformation, orchestration, and visualization using Data Factory, Data Engineering, and Power BI.
 
 The pipeline processes earthquake event data sourced from the USGS (United States Geological Survey) API.
 
@@ -11,8 +11,15 @@ The pipeline processes earthquake event data sourced from the USGS (United State
 - Microsoft Fabric  
   - Data Engineering  
   - Data Factory  
-- Power BI
-  
+- Power BI  
+
+## Getting Started
+To get started with this project:
+
+- Download the notebooks from the repository  
+- Follow the step-by-step instructions provided in the YouTube tutorial  
+- Execute the notebooks in sequence: **Bronze → Silver → Gold**
+
 ## Repository Contents
 
 ### Worldwide Earthquake Events API – Bronze Layer Processing
@@ -31,5 +38,10 @@ The pipeline processes earthquake event data sourced from the USGS (United State
 - Designed for insights, reporting, and dashboards  
 - Optimized for Power BI visualizations  
 
+## Pipeline Orchestration & Automation
+- Implemented scheduled pipeline execution using **Microsoft Fabric Data Factory**  
+- Automated end-to-end data processing from ingestion to Gold layer  
+- Configured **semantic model refresh** to ensure Power BI reports always use the latest data  
+
 ## Architecture
-This project follows a **Medallion Architecture (Bronze, Silver, Gold)** approach to deliver reliable and scalable analytics using Microsoft Fabric.
+This project follows a **Medallion Architecture (Bronze, Silver, Gold)** approach to deliver reliable, scalable, and automated analytics using Microsoft Fabric.
