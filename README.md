@@ -13,13 +13,6 @@ The pipeline processes earthquake event data sourced from the USGS (United State
   - Data Factory  
 - Power BI  
 
-## Getting Started
-To get started with this project:
-
-- Download the notebooks from the repository  
-- Follow the step-by-step instructions provided in the YouTube tutorial  
-- Execute the notebooks in sequence: **Bronze → Silver → Gold**
-
 ## Repository Contents
 
 ### Worldwide Earthquake Events API – Bronze Layer Processing
